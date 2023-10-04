@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Documentation:
+1. https://zod.dev
+2. https://ui.shadcn.com/docs/components/form
+3. https://ui.shadcn.com/docs/components/form
+4. https://dashboard.clerk.com/apps/app_2WBSiNZAfyYs6TgmjWUSXumjCI0/instances/ins_2WBSiMEx96SNpcWhGaRKwX0xvis
+5. https://docs.uploadthing.com
+
 ## Getting Started
 
 First, run the development server:
