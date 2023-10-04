@@ -3,9 +3,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 # Documentation:
 1. https://zod.dev
 2. https://ui.shadcn.com/docs/components/form
-3. https://ui.shadcn.com/docs/components/form
+
 4. https://dashboard.clerk.com/apps/app_2WBSiNZAfyYs6TgmjWUSXumjCI0/instances/ins_2WBSiMEx96SNpcWhGaRKwX0xvis
 5. https://docs.uploadthing.com
+6. https://nextjs.org/docs
+7. https://mongoosejs.com/docs/connections.html
 
 ## Getting Started
 

@@ -22,6 +22,7 @@ import { Textarea } from "../ui/textarea";
 import { isBase64Image } from "@/lib/utils";
 import { usePathname, useRouter } from "next/navigation";
 import { useUploadThing } from "@/lib/uploadthing";
+import { updateUser } from "@/lib/actions/user.actions";
 
 interface Props {
     user: {
