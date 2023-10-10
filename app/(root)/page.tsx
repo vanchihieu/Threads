@@ -1,6 +1,10 @@
+import ThreadCard from "@/components/cards/ThreadCard";
 import { fetchPosts } from "@/lib/actions/thread.actions";
-
+import { currentUser } from "@clerk/nextjs";
 export default async function Home() {
+    const user = await currentUser();
+    if (!user) return null;
+    
     const result = await fetchPosts(1, 30);
     console.log("🚀 ~ Home ~ result:", result);
 
