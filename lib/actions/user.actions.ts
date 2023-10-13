@@ -55,7 +55,7 @@ export async function updateUser({
         );
 
         if (path === "/profile/edit") {
-            revalidatePath(path); // Kết quả là dữ liệu tĩnh cho path đó sẽ được cập nhật mà không cần phải build lại toàn bộ ứng dụng.
+            revalidatePath(path);
         }
     } catch (error: any) {
         throw new Error(`Failed to create/update user: ${error.message}`);
